@@ -1,0 +1,99 @@
+body{
+	background-image: url();
+	font-family: times new roman/forte;
+}
+
+.container{
+	background-color: skyblue;
+	margin:11% auto;
+	height: 300px;
+	width: 350px;
+	border:1px solid skyblue;
+	border-radius: 10px;
+}
+
+label{
+	display: block;
+}
+
+.login{
+	text-decoration: none;
+	padding-top: 7px;
+	font-size: 30px;
+	font-family: times new roman;
+	color: white;
+	text-align:center;
+	display: inline-block;
+	border-radius: 10px;
+	float: left;
+	line-height: 70px;
+	height: 70px;
+	width: 175px;
+	background:skyblue;
+	margin-top: 0px;
+}
+
+
+.signup{
+	text-decoration: none;
+	padding-top:7px; 
+	font-size: 30px;
+	font-family: times new roman;
+	color: #000;
+	text-align:center;
+	display: inline-block;
+	float: right;
+	line-height: 70px;
+	height: 70px;
+	width: 175px;
+	background-color: white;
+	margin-top: 0px;
+	border-radius: 0px;	
+}
+
+input{
+	position: relative;
+	padding: 8px;
+	margin-left: 1px;
+	font-family: times new roman;
+
+}
+
+input:hover{
+	transition: all 0.5s ease-out; 
+	background: aliceblue;
+	color: black;
+}
+
+button{
+	font-family:Cataneo BT;
+	margin-top: 11px;
+	font-size: 30px;
+	background:skyblue;
+	border:1px solid skyblue;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	height: 40px;
+	width: 80px;
+	font-weight: 70px;
+	margin-left: 135px;
+	position: relative;
+	transition: all 0.5s ease-in-out;
+
+}
+
+button:hover{
+	background:#fff;
+	transform: rotate(360deg);
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	color: black;
+	height: 40px;
+	width: 80px;
+	border:1px solid skyblue;
+	border-radius:5px;
+	margin-bottom: 5px;
+}
